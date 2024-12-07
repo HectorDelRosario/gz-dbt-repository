@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw  # Alias para el dataset
+    description: "Conjunto de datos con información en bruto"
+    tables:
+      - name: sales  # Alias para la tabla raw_gz_sales
+        description: "Datos de ventas"
+      - name: product  # Alias para la tabla raw_gz_product
+        description: "Datos de productos"
+      - name: ship  # Alias para la tabla raw_gz_ship
+        description: "Datos de envíos"
